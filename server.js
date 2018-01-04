@@ -12,7 +12,7 @@ var CLIENT_ID = "1066817426142-41pk11rn01ed3tnaofsriq74pkfciqdc.apps.googleuserc
 var CLIENT_SECRET = "P6wibjFMFmyNDm-Dco4wgysu";
 var REDIRECT_URI = "http://localhost:3000/oauth2callback";
 var ACCESS_KEY_END_POINT = "https://www.googleapis.com/oauth2/v4/token";
-var CONSENT_PAGE_END_POINT = "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id="+CLIENT_ID+"&redirect_uri="+REDIRECT_URI+"&scope=https://www.googleapis.com/auth/drive.metadata.readonly"
+var CONSENT_PAGE_END_POINT = "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id="+CLIENT_ID+"&redirect_uri="+REDIRECT_URI+"&scope=https://www.googleapis.com/auth/userinfo.email"
 console.log(CONSENT_PAGE_END_POINT);
 
 
